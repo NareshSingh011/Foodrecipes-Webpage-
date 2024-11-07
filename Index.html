@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+
+        <div id="menuPage">
+            
+        </div>
+
+        <div id="navbar">
+            <img src="./logo.png" alt="" >
+            <div id="left-div">
+                <div id="links">
+                    <a href="#page1" >Home </a>
+                    <a href="">Blog</a>
+                    <a href="#page2">Recipes</a>
+                    <a href="#page3">About</a>
+                    <a href="">Contact</a>
+                </div>
+                <div class="Search">
+                    <input type="text" placeholder=" Search Recipes" >
+                    <i id="search" class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <i id="menu" class="fa-solid fa-list"></i>
+            </div>
+        </div>
+        <div id="page1">
+            
+            <div id="firstbottom">
+                <div id="left">
+                    <h1>"Master the Kitchen with Our <br>Simple and Delicious Recipes <br> <span> – Cook Like a Chef Today!"</span></h1>
+                    <h2>"From comforting classics to exotic flavors, we serve up dishes to satisfy every taste and celebration!"</h2>
+                    <button>Explore all Recipes</button>
+                </div>
+                <div id="right">
+                    <img id="ChefImg" src="./chef.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="page2">
+
+            <div id="headings">
+                <h1>"Essential recipes you’ll love!"</h1>
+                <h2>"From cozy classics to adventurous flavors, our featured recipes promise to impress every palate!"</h2>
+            </div>
+
+            <div id="Listheading">
+                <a id="All" href="#" data-category="all">All</a>
+                <a id="Appetizer" href="#" data-category="appetizer">Appetizer</a>
+                <a id="Starter" href="#" data-category="starter">Starter</a>
+                <a id="MainCourses" href="#" data-category="main-course">Main Courses</a>
+                <a id="SideDishes" href="#" data-category="side-dishes">Side Dishes</a>
+                <a id="Desertes" href="#" data-category="deserts">Deserts</a>
+                <div class="background"></div>
+            </div>
+
+            <!-- <div id="backwardStep">
+                <i class="fa-solid fa-backward-step"></i>
+            </div> -->
+
+            <!-- Cards Section -->
+    <div class="cards">
+        <!-- Appetizer Card -->
+        <div class="card" data-category="appetizer">
+        <img src="../food Recepies/Food images/Bruschetta.png" alt="">
+        <h1>Bruschetta</h1>
+        <div class="rating">
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+        </div>
+        <h2>Bruschetta is a classic Italian appetizer with grilled bread, garlic, tomatoes, and toppings like tomato-basil or mushroom-garlic. Delicious!</h2>
+        <button id="Explore-Recipes"> Recipe</button>
+        <div id="card-bottom">
+            <i class="fa-regular fa-clock"></i>
+            <h3>20min</h3>
+            <div id="share">
+                <i class="fa-solid fa-share-nodes"></i>
+                <i class="fa-regular fa-bookmark"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Starter Card -->
+
+    <div class="card" data-category="starter">
+        <img src="../food Recepies/Food images/corn rice.png" alt="">
+        <h1>Corn-Rice</h1>
+        <div class="rating">
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+        </div>
+        <h2>Corn pulao is a vibrant rice dish made with tender corn, aromatic onions, fresh herbs, and spices, delivering a delightful balance of flavors and textures </h2>
+        <button id="Explore-Recipes"> Recipe</button>
+        <div id="card-bottom">
+            <i class="fa-regular fa-clock"></i>
+            <h3>20min</h3>
+            <div id="share">
+                <i class="fa-solid fa-share-nodes"></i>
+                <i class="fa-regular fa-bookmark"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" data-category="starter">
+        <img src="../food Recepies/Food images/kulhad rice.png" alt="">
+        <h1>Spinach Biryani</h1>
+        <div class="rating">
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+        </div>
+        <h2>Palak Biryani is a fragrant rice dish cooked with fresh spinach, spices, and basmati rice, served in a traditional clay pot (kulhad) for an authentic experience.</h2>
+        <button id="Explore-Recipes"> Recipe</button>
+        <div id="card-bottom">
+            <i class="fa-regular fa-clock"></i>
+            <h3>20min</h3>
+            <div id="share">
+                <i class="fa-solid fa-share-nodes"></i>
+                <i class="fa-regular fa-bookmark"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Course Cards -->
+
+    <div class="card" data-category="main-course">
+        <img src="../food Recepies/Food images/saahai panneer-Photoroom.png" alt="">
+        <h1>Saahi Paneer</h1>
+        <div class="rating">
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+        </div>
+        <h2>"A rich and creamy Indian delicacy made with succulent paneer cubes simmered in a luxurious blend of spices, cashew paste, and cream.</h2>
+        <button id="Explore-Recipes"> Recipe</button>
+        <div id="card-bottom">
+            <i class="fa-regular fa-clock"></i>
+            <h3>20min</h3>
+            <div id="share">
+                <i class="fa-solid fa-share-nodes"></i>
+                <i class="fa-regular fa-bookmark"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card" data-category="main-course">
+        <img src="../food Recepies/Food images/Mushroom.png" alt="">
+        <h1>Kadai Mushroom</h1>
+        <div class="rating">
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+        </div>
+        <h2>Kadai Mushroom: sautéed mushrooms, peppers, onions in tangy spiced tomato sauce.</h2>
+        <button id="Explore-Recipes"> Recipe</button>
+        <div id="card-bottom">
+            <i class="fa-regular fa-clock"></i>
+            <h3>20min</h3>
+            <div id="share">
+                <i class="fa-solid fa-share-nodes"></i>
+                <i class="fa-regular fa-bookmark"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+    <!-- Side Dishes -->
+
+    <div class="card" data-category="side-dishes">
+        <img src="../food Recepies/Food images/Sooji Dhokla.png" alt="">
+        <h1>Rava Dhokla</h1>
+        <div class="rating">
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+        </div>
+        <h2>Rava dhokla, vegan, no curd, soft, fluffy, steamed cake, rava, spices, fruit salt, lemon juice, coconut, coriander leaves. Perfect snack. Enjoy!</h2>
+        <button id="Explore-Recipes"> Recipe</button>
+        <div id="card-bottom">
+            <i class="fa-regular fa-clock"></i>
+            <h3>20min</h3>
+            <div id="share">
+                <i class="fa-solid fa-share-nodes"></i>
+                <i class="fa-regular fa-bookmark"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dessert Card -->
+    <div class="card" data-category="deserts">
+        <img src="../food Recepies/Food images/cheese cake.png" alt="">
+        <h1>Mango Cheesecake</h1>
+        <div class="rating">
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+        </div>
+        <h2>Mango cheesecake, no-bake, creamy, vegetarian, vegan. Perfect summer treat.</h2>
+        <button id="Explore-Recipes"> Recipe</button>
+        <div id="card-bottom">
+            <i class="fa-regular fa-clock"></i>
+            <h3>20min</h3>
+            <div id="share">
+                <i class="fa-solid fa-share-nodes"></i>
+                <i class="fa-regular fa-bookmark"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card" data-category="deserts">
+        <img src="../food Recepies/Food images/chococake.png" alt="">
+        <h1>Chocolate cake</h1>
+        <div class="rating">
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+            <div class="ratings"><i class="fa-solid fa-star"></i></div>
+        </div>
+        <h2>"Dark chocolate cake, rich and moist, decadent layers, dairy-optional, crowd favorite. Perfect celebration dessert."</h2>
+        <button id="Explore-Recipes"> Recipe</button>
+        <div id="card-bottom">
+            <i class="fa-regular fa-clock"></i>
+            <h3>20min</h3>
+            <div id="share">
+                <i class="fa-solid fa-share-nodes"></i>
+                <i class="fa-regular fa-bookmark"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- More cards can be added in similar fashion -->
+</div>
+
+
+            <!-- <div id="forwardStep">
+                <i class="fa-solid fa-forward-step"></i>
+            </div> -->
+
+            
+        </div>
+
+        <div id="heading">
+            <h1>Our Services </h1>
+        </div>
+
+        <div id="page3">
+            <div id="left">
+                <div class="aboutL">
+                    <img src="../food Recepies/About Icon/dinner.png" alt="">
+                    <div class="content">
+                        <h2>Quality Food</h2>
+                        <h3>Search recipes by quality ingredients
+                        Filter by organic, local, and seasonal options
+                        Explore premium cooking ingredients</h3>
+                    </div>
+                </div>
+                <div class="aboutL">
+                    <img src="../food Recepies/About Icon/salt-and-pepper.png" alt="">
+                    <div class="content">
+                        <h2>Ingredients</h2>
+                        <h3>Browse comprehensive ingredient lists
+                            Check substitutions and alternatives
+                            Find local availability and seasonality</h3>
+                    </div>
+                </div>
+                <div class="aboutL">
+                    <img src="../food Recepies/About Icon/tray.png" alt="">
+                    <div class="content">
+                        <h2>Serve fresh</h2>
+                        <h3>Get timing and temperature guides
+                            Learn proper serving techniques
+                            Find reheating instructions and tips</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div id="right">
+                <div class="aboutR">
+                    <img src="../food Recepies/About Icon/chef-hat.png" alt="">
+                    <div class="content">
+                        <h2>Cook like a chef</h2>
+                        <h3>Access professional cooking techniques
+                            Learn expert kitchen shortcuts
+                            Master advanced culinary skills</h3>
+                    </div>
+                </div>
+                <div class="aboutR">
+                    <img src="../food Recepies/About Icon/fork-and-knife-in-cross.png" alt="">
+                    <div class="content">
+                        <h2>Easy Recepies</h2>
+                        <h3>Find quick 30-minute meals
+                            Discover 5-ingredient recipes
+                            Browse beginner-friendly instructions</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../food Recepies/Script.js"></script>
+</body>
+</html>
